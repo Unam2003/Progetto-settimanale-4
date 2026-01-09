@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+header {
+  background-color: #ffc017;
+  font-family: "Spectral", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em 2em;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+#startedbtn {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+#startedbtn:hover,
+#readingbtn:hover {
+  background-color: #424242;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: black;
+  margin: 0;
+}
+.curious {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.description {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.description h1 {
+  font-size: 100px;
+  margin-bottom: 0.3em;
+}
+
+.description p {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+#readingbtn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
