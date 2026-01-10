@@ -66,3 +66,136 @@ hr {
   border-radius: 50px;
   cursor: pointer;
 }
+
+/* HEADER COMPLETATO */
+
+.trending {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 2em 5% -1em 5%;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", serif;
+}
+
+.tabelle {
+  display: flex;
+  gap: 10%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 11%;
+}
+
+.correlati {
+  line-height: 30px;
+  position: relative;
+  width: 26%;
+  margin-top: 2em;
+}
+
+.correlati:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: rgb(250, 250, 250);
+}
+
+.correlati img {
+  border-radius: 50%;
+  width: 1.5em;
+}
+
+.correlati h2 {
+  font-weight: bold;
+}
+
+.correlati p {
+  display: inline;
+}
+
+.correlati span {
+  color: rgb(223, 221, 221);
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: -60px;
+}
+
+.datedescription {
+  color: gray;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.singolocorrelato {
+  display: flex;
+}
+
+.nomeutente {
+  font-weight: bold;
+}
+
+/* ARTICLE BOTTOM */
+
+.singolocorrelato {
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.descriptioncorrelato:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: rgb(250, 250, 250);
+}
+
+.correlatibottom h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.correlatibottom p {
+  display: inline;
+}
+
+.correlatibottom span {
+  color: rgb(223, 221, 221);
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: -60px;
+}
+
+.descriptioncorrelato img {
+  border-radius: 50%;
+  width: 1.5em;
+}
+
+.separeimg {
+  display: flex;
+  align-items: end;
+  gap: 1.5em;
+}
+
+.fotodescription {
+  border-radius: 0%;
+  width: 14em;
+}
+
+p .commento {
+  line-height: -10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
