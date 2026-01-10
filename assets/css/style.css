@@ -12,7 +12,7 @@ nav {
   padding: 1.5em 2em;
 }
 
-li {
+nav li {
   list-style: none;
   text-decoration: none;
   display: inline;
@@ -141,6 +141,7 @@ main {
 
 .nomeutente {
   font-weight: bold;
+  font-size: 13px;
 }
 
 /* ARTICLE BOTTOM */
@@ -198,4 +199,59 @@ p .commento {
 .bottom {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
+}
+
+/* SEZIONE BOTTOM DESTRA */
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.discover h3 {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.linksbottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+  width: 32em;
+}
+
+.linksbottom li {
+  border: 1px solid rgb(223, 221, 221);
+  color: gray;
+  padding: 0.5em 1em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.linksbottom li:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+.divisore {
+  border: none;
+  height: 1px;
+  background-color: rgb(214, 214, 214);
+  margin: 2em 0;
+}
+
+.lastlinks {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30em;
+}
+
+.lastlinks li {
+  margin-right: 2em;
+  color: gray;
+  line-height: 30px;
 }
