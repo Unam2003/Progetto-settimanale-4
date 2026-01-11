@@ -141,7 +141,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 11%;
+  margin: 1em 11%;
 }
 
 .singolocorrelato {
@@ -263,4 +263,39 @@ p .commento {
   margin-right: 2em;
   color: gray;
   line-height: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  svg {
+    display: none;
+  }
+
+  .remove {
+    display: none;
+  }
+  .description h1 {
+    font-size: 80px;
+    margin-top: 1em;
+  }
+  #readingbtn {
+    margin-bottom: 6em;
+  }
+
+  .tabelle {
+    flex-direction: column;
+    margin: 0 15%;
+  }
+  .correlati {
+    width: 100%;
+  }
+  .datedescription {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .bottom {
+    flex-direction: column-reverse;
+    margin: 0 5%;
+  }
 }
