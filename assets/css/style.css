@@ -299,3 +299,28 @@ p .commento {
     margin: 0 5%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .startedbtn {
+    margin: 0;
+  }
+
+  .description h1 {
+    font-size: 70px;
+    margin-top: 1em;
+  }
+
+  #readingbtn {
+    margin-bottom: 6em;
+  }
+  .tabelle {
+    justify-content: space-around;
+  }
+  .correlati {
+    width: 45%;
+  }
+  .bottom {
+    flex-direction: column-reverse;
+    margin: 0 5%;
+  }
+}
