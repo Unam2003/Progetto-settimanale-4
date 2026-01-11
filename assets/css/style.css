@@ -6,10 +6,16 @@ header {
 }
 
 nav {
+  background-color: #ffc017;
+  font-family: "Spectral", serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1.5em 2em;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  border-bottom: 1px solid black;
 }
 
 nav li {
@@ -18,6 +24,7 @@ nav li {
   display: inline;
   margin: 0 15px;
   cursor: pointer;
+  top: 0;
 }
 
 #startedbtn {
@@ -42,6 +49,7 @@ hr {
   flex-direction: row;
   align-items: start;
   justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
 .description {
@@ -132,7 +140,8 @@ main {
 .bottom {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 11%;
 }
 
 .singolocorrelato {
